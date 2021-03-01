@@ -1,5 +1,5 @@
 # EncDec
-EncDec is a very thin wrapper around **[Fernet](https://cryptography.io/en/latest/fernet.html)** and you can use it to encrypt and decrypt data on the fly. I have written this package just to simplify the encryption and decryption of the data in Python a little easier for me and I wanted to give me a possibility of easy switching to any other encryption backend later if needed.
+EncDec is a very thin wrapper around **[Fernet](https://cryptography.io/en/latest/fernet.html)** and you can use it to encrypt and decrypt data on the fly. I have written this package just to simplify the encryption and decryption of the data in Python and I wanted to give me a possibility of easy switching to any other encryption backend later if needed.
 
 ## Installation
 Install the package from PyPi or install it from the source:
