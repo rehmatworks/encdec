@@ -21,7 +21,7 @@ git clone https://github.com/rehmatworks/encdec.git \
 Need to generate a key for encryption. Generate this key and store it safely. If the key is lost, it will never be possible for you to decrypt the data back.
 
 ```python
-from encdec.lib.encdec import EncDec
+from encdec.lib import EncDec
 
 
 enc = EncDec()
@@ -39,7 +39,7 @@ decrypted_data = enc.decrypt('encrypted-string')
 On failure, both `encrypt()` and `decrypt()` will return `None`. If you want to see the debug message, you can do so by setting `is_debug` property to `True`. The exception `EncdecError` will be raised if an error occurs.
 
 ```python
-from encdec.lib.encdec import EncDec, EncdecError
+from encdec.lib import EncDec, EncdecError
 
 
 enc = EncDec(encryption_key='encryption_key', is_debug=True)
