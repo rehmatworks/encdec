@@ -15,6 +15,7 @@ class EncDec:
 
     def __init__(self, encryption_key=None, is_debug=False):
         self.is_debug = is_debug
+        self.encryption_key = encryption_key
     
     def generate_key(self):
         # Use generate_key() method from Fernet
