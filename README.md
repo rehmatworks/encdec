@@ -20,7 +20,7 @@ git clone https://github.com/rehmatworks/encdec.git \
 ## Usage
 Need to generate a key for encryption. Generate this key and store it safely. If the key is lost, it will never be possible for you to decrypt the data back.
 
-```bash
+```python
 from encdec.lib.encdec import EncDec
 
 
@@ -40,6 +40,8 @@ On failure, both `encrypt()` and `decrypt()` will return `None`. If you want to 
 
 ```python
 from encdec.lib.encdec import EncDec, EncdecError
+
+
 enc = EncDec(encryption_key='encryption_key', is_debug=True)
 
 try:
