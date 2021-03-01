@@ -5,7 +5,7 @@ EncDec is a very thin wrapper around **[Fernet](https://cryptography.io/en/lates
 Install the package from PyPi or install it from the source:
 
 ```bash
-pip3 install encdec==1.0.3
+pip3 install encdec==1.0.4
 ```
 
 or
